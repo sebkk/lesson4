@@ -1,0 +1,150 @@
+body {
+    margin: 5px 0 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu-top {
+    background-color: darksalmon;
+    display: block;
+    color: white;
+    height: 25px;
+    padding: 5px 0;
+}
+
+.menu-1 {
+    padding: 0px 0 10px 5px;
+    float: left;
+}
+
+.menu-1:hover {
+    color: lightgray;
+}
+
+.menu-2 {
+    padding: 0px 130px 0px 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-2, .menu-3 {
+    float: right;
+}
+
+.div-head {
+    background-image: url("tlo.jpg");
+    background-size: cover;
+    font-size: 30px ;
+    color: darksalmon ;
+    font-weight: bold;
+    padding: 40px 50px 230px 40px;
+}
+
+.paragraf-1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+}
+
+.paragraf-2 {
+    color: lightslategray;
+    text-align: center;
+}
+
+.paragraf-3 {
+    font-size: 12px;
+    text-align: center;
+}
+
+#mainpost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post-1, .post-2, .post-3 {
+    text-align: center;
+    margin: 10px 30px;
+    height: 80px;
+    width: 360px;
+    padding: 9px;
+    background-color: linen;
+
+}
+
+.post-1:hover, .post-2:hover, .post-3:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transform: scale(1.1);
+    outline: 1px solid;
+    outline-color: lightslategray;    
+}
+
+.tytul {
+    font-weight: bold;
+}
+
+.paragraf-4 {
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#mainbottom {
+    display: flex;
+    padding: 10px;
+    flex: 1 100%;
+    background-color: darksalmon;
+    flex-direction: row;
+    justify-content: stretch;
+  }
+
+.bottom-1 {
+    width: 30%;
+}
+
+.bottom-2 {
+    align-self: flex-end;
+    text-align: center;
+    width: 40%;
+    padding: 120px 0 0 0;
+}
+
+.bottom-3 {
+    width: 30%;
+}
+
+.paragraf-7 {
+    font-size: 12px;
+}
+
+.paragraf-5 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.paragraf-6 {
+    font-size: 12px;
+}
+
+.login-1 {
+    outline-color: lightslategray;
+    color: lightslategray;
+}
+
+.send {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 11px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+   }
+
+.send:hover {
+    opacity : 0.70;
+    filter : alpha(opacity=70);
+}
